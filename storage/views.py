@@ -10,6 +10,7 @@ class TransactionViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
 
     # Create: POST /api/transactions/
+    # def get (self, transaction): 
     # Retrieve: GET /api/transactions/{id}/
     # Update: PUT /api/transactions/{id}/
     # Partial Update: PATCH /api/transactions/{id}/
